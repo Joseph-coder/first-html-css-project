@@ -1,0 +1,30 @@
+/* helpers */
+.spacer20{
+    height: 20px;
+    width: 100%;
+  }
+
+  .anchor-link{
+    text-decoration: none;
+  }
+
+  .anchor-link:focus{
+    outline: none;
+
+  }
+
+  /* .anchor-link h1::before{
+    content: "I'am before selector...";
+
+  } */
+
+  .anchor-link h1::after{
+    font-family: "Font Awesome 5 Free";
+    content: " \f0c1";
+    font-weight: 900;
+  }
+
+  /* .anchor-link h1::after{
+    content: "...I'am after";
+  }
+   */
